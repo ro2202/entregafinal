@@ -1,0 +1,38 @@
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(239, 118, 252);
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btnForm {
+    background-color: rgb(189, 123, 250);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.WhatsApp {
+    width: 130px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

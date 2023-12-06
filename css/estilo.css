@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(251, 208, 208) 46, 245;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 50px 30px;
+  font-size: medium;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+
+.Logo {
+  width: 250px;
+}
+
+.Logotipo {
+  width: 150px;
+  border: 2px solid;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(179, 76, 253);
+  margin: 0px 15px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: rgb(144, 97, 254);
+}
+
+h2 {
+  text-align: center;
+  margin: 15px;
+  color: rgb(80, 37, 251);
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(246, 151, 203, 0.945);
+}
+
+p {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(57, 55, 55);
+}
+
+.contenedortejidos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.Tejidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.Muestras {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  object-fit: contain;
+  background-color: #DCE0E1;
+  border-radius: 5px;
+}
+
+.productodescrip {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(35, 63, 243);
+  text-align: center;
+}
+
+.WhatsApp {
+  width: 130px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.Cuidados {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px;
+  text-align: center;
+  background-color: darksalmon;
+}
+
+.info {
+  text-align: center;
+  color: rgb(15, 3, 246);
+}
+
+.info1 {
+  text-align: center;
+  color: hotpink;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px;
+  color: lightcoral;
+}
+
+h4 {
+  text-align: center;
+  margin: 8px;
+  color: rgb(250, 80, 80);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+  color: rgb(239, 118, 252);
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.btnForm {
+  background-color: rgb(189, 123, 250);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.WhatsApp {
+  width: 130px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background-color: #DCE0E1;
+  border-radius: 5px;
+}
+
+@media (max-width: 1023px) {
+  .contenedortejidos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 760px) {
+  .contenedortejidos {
+    grid-template-columns: 1fr 1fr;
+  }
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .WhatsApp {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+  }
+  form {
+    margin-top: 10px;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px 50px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

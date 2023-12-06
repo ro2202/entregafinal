@@ -1,0 +1,45 @@
+@media (max-width:1023px) {
+    .contenedortejidos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:760px) {
+    .contenedortejidos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .WhatsApp {
+        width: 100px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 30px 50px;
+    }
+}

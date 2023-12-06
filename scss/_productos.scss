@@ -1,0 +1,49 @@
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(246, 151, 203, 0.945);
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(57, 55, 55);
+}
+
+.contenedortejidos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.Tejidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.Muestras {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    object-fit: contain;
+    background-color: #DCE0E1;
+    border-radius: 5px;
+}
+
+.productodescrip {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(35, 63, 243);
+    text-align: center;
+}
+
+.WhatsApp {
+    width: 130px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
